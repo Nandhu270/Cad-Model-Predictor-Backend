@@ -110,7 +110,7 @@ def _simple_local_summary(instruments):
 def ensure_genai_client():
     if not GENAI_AVAILABLE:
         raise RuntimeError("google-genai client is not installed in the environment.")
-    api_key = "AIzaSyDBMrplxu_AkE9cu8wUI1xqnnLUiEf8cd0"
+    api_key = ""
     try:
         if api_key:
             try:
