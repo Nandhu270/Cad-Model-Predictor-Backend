@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-multipart
+
+ifcopenshell
+
+numpy
+networkx
+
+google-genai
+
+pydantic
